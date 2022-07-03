@@ -259,7 +259,6 @@ footer{}
 
 		.footer_comp{display:inline-block; margin:0 10px; position:relative;}
 		.footer_comp:before{content:"\2022"; left:-10px; top:0; position: absolute;}
-		.footer_comp:after{content:"\2022"; right:-10px; top:0; position: absolute;}
 
 		.copyright{color:#fff; margin: 0 auto;text-align: center;}
 		.copyrigh_text:hover{text-decoration:none!important;}
