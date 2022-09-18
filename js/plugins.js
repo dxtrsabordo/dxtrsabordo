@@ -112,7 +112,7 @@ $(document).ready(function(){
 
 	});
 
-	$('.rslides').responsiveSlides();
+	// $('.rslides').responsiveSlides();
 	// $(".box_skitter_large").skitter();
 
 	$('.back_top').click(function () { // back to top
@@ -142,4 +142,13 @@ $(document).ready(function(){
 		// End (AddThis) Plugins
 	});
 
+	// Nav Active Design
+	var list = document.querySelectorAll('.list');
+	function activeLink(){
+		list.forEach((item) => 
+		item.classList.remove('active'));
+		this.classList.add('active');
+	}
+	list.forEach((item) =>
+	item.addEventListener('click', activeLink));
 });

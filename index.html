@@ -61,14 +61,6 @@ get_includes('banner');
 						<li class="list active">
 							<a href="javascript:;">
 								<small class="icon">
-									<ion-icon name="home-outline"></ion-icon>
-								</small>
-								<small class="text">Home</small>
-							</a>
-						</li>
-						<li class="list">
-							<a href="javascript:;">
-								<small class="icon">
 									<ion-icon name="person-outline"></ion-icon>
 								</small>
 								<small class="text">About Me</small>
@@ -97,26 +89,6 @@ get_includes('banner');
 		</div>
 		<!-- End Navigation -->
 
-		<!-- Banner -->
-		<div id="banner">
-			<div class="wrapper">
-				<div class="bnr_con">
-
-				</div>
-			</div>
-		</div>
-		<!-- End Banner -->
-
-		<!-- Middle -->
-		<div id="middle">
-			<div class="wrapper">
-				<div class="middle_con">
-
-				</div>
-			</div>
-		</div>
-		<!-- End Middle -->
-
 		<!-- Main -->
 		<div id="main_area">
 			<div class="wrapper">
@@ -131,33 +103,19 @@ get_includes('banner');
 		<!-- End Main -->
 
 		<!-- Bottom -->
-		<div id="bottom1">
+		<div class="bottom">
 			<div class="wrapper">
-				<div class="btm1_con">
-
+				<div class="bottom_con">
+					<div class="card"></div>
+					<div class="card"></div>
+					<div class="card"></div>
+					<div class="card"></div>
 				</div>
 			</div>
 		</div>
-
-		<div id="bottom2">
-			<div class="wrapper">
-				<div class="btm2_con">
-
-				</div>
-			</div>
-		</div>
-		<!-- End Bottom -->
 
 		<!--Footer -->
 		<footer>
-			<div class="footer_top">
-				<div class="wrapper">
-					<div class="footer_top_con">
-
-					</div>
-				</div>
-			</div>
-
 			<div class="footer_btm">
 				<div class="wrapper">
 					<div class="footer_btm_con">
@@ -193,21 +151,10 @@ get_includes('banner');
 		Solved Psuedo Elements IE Issues
 		-->
 
-		<script>
-			const list = document.querySelectorAll('.list');
-			function activeLink(){
-				list.forEach((item) => 
-				item.classList.remove('active'));
-				this.classList.add('active');
-			}
-			list.forEach((item) =>
-			item.addEventListener('click',activeLink));
-		</script>
-
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- <script src="js/plugins.js"></script> -->
+		<script src="js/plugins.js"></script>
 		<!--<?php wp_footer(); ?>-->
 	</body>
 </html>
