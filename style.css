@@ -100,7 +100,7 @@ header{}
 .page_nav ul .list.active a:hover .icon, .page_nav ul .list.active a .icon{transform: translateY(-50px); color: var(--nav-color); pointer-events: none;}
 .page_nav ul .list a .text{font-size: 15px; font-weight: 600; text-transform: uppercase; position: absolute; transition: 0.5s; opacity: 0;transform: translateY(20px);}
 .page_nav ul .list.active a:hover .text, .page_nav ul .list.active a .text{opacity: 1;transform: translateY(10px);pointer-events: none;}
-.page_nav ul .indicator{position: absolute; width: 80px; height: 80px; top: -50%; left: 204px; background: var(--nav-active); border-radius: 50%; border: 8px solid var(--body-bg); z-index: 1; transition: 0.5s;}
+.page_nav ul .indicator{position: absolute; width: 80px; height: 80px; top: -50%; left: 202px; background: var(--nav-active); border-radius: 50%; border: 8px solid var(--body-bg); z-index: 1; transition: 0.5s;}
 .page_nav ul .indicator::before{content: ''; position: absolute; width: 40px; height: 25px; top: 37px; left: -41px; background-color: #fff; border-top-right-radius: 25px; box-shadow: 0 -10px 0 0 var(--body-bg);}
 .page_nav ul .indicator::after{content: ''; position: absolute; width: 40px; height: 25px; top: 37px; right: -41px; background-color: #fff; border-top-left-radius: 25px; box-shadow: 0 -10px 0 0 var(--body-bg);}
 
