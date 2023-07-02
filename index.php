@@ -123,10 +123,10 @@ get_includes('banner');
 						<div class="copyright">
 							&copy; Copyright
 							<?php
-							$start_year = '2022';
-							$current_year = date('Y');
-							$copyright = ($current_year == $start_year) ? $start_year : $start_year.' - '.$current_year;
-							echo $copyright;
+								$start_year = '2022';
+								$current_year = date('Y');
+								$copyright = ($current_year == $start_year) ? $start_year : $start_year.' - '.$current_year;
+								echo $copyright;
 							?>
 							<span class="footer_comp">Dexter Sabordo</span>
 						</div>
